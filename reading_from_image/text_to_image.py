@@ -1,3 +1,5 @@
+# This creates image data set to reading from image
+
 import cv2
 from data_set import text 
 import numpy as np
@@ -9,7 +11,7 @@ color = (255, 0, 0)
 fontScale = 0.65
 thickness = 1
 count = 0
-path = 'C:/Users/DELL/Desktop/test/images'
+path = '\images'
 for x in text:
     word = x.split(",")
     img = np.zeros((1500, 2500), dtype=np.uint8)
